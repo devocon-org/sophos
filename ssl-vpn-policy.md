@@ -11,5 +11,8 @@
 |LAN|Server-ip address|port-numb|
 
 
+First create SSL_VPN(remote-acccess) config in `VPN`
 
+* Under Identity Edit Policy members add users or group u want to give remote access
 
+* Under Tunnel access edit Permitted network resources (IPv4), add all the internal server's ip add u want users to access
