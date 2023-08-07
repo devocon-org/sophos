@@ -11,7 +11,7 @@
 |LAN|Server-ip address|port-numb|
 
 
-First create SSL_VPN(remote-acccess) config in `VPN`
+**_First create SSL_VPN(remote-acccess) config in `VPN`_**
 
 * Under Identity Edit Policy members add users or group u want to give remote access
 
