@@ -1,5 +1,6 @@
 ## creating ssl vpn group rule for firewall
 
+[ssl-vpn config web-reference](https://doc.sophos.com/nsg/sophos-firewall/18.5/help/en-us/webhelp/onlinehelp/AdministratorHelp/VPN/RemoteAccessVPN/VPNRemoteAccessSSLVPNSophosConnectClient/index.html#overview)
 
 |_Source_|_Source Network_|
 |---|---|
