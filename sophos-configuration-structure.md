@@ -49,3 +49,18 @@ Broadcasting addressing is another addressing method available in IPv4. It allow
 The IP address 255.255.255.255 is mostly used for network broadcast. Moreover, limited directed-broadcast uses the all-ones host address with the network prefix.
 
 IPv6 does not provide any implementation and any broadcast addressing. It replaces it with multicast to the specially defined all-nodes of the multicast address.
+
+_**Multicast IP addresses**_
+
+Multicast IP addresses are used mainly for one-to-many communication. Multicast messages are mostly sent to the IP multicast group address.
+
+In this, routers forward copies of the packet out to every interface with hosts subscribed to that specific group address. Only the hosts that require receiving the message will process the packets. All other hosts on that LAN will discard them.
+
+_**Anycast addressing**_
+
+In anycast addressing the data, the stream is not transmitted to all receivers. However, just the one that the router decides is closest to the network.
+
+This IP addressing comes as a built-in feature of IPv6. In IPv4, it is implemented by using the Border Gateway Protocol by using the shortest-path metric. This method is widely used for global load balancing and is also used in distributed DNS systems.
+
+_**IP Classification**_
+
