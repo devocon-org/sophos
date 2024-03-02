@@ -41,3 +41,11 @@ Unicast addressing is the most common concept of an IP address in the Unicast ad
 This IP address method refers to a single sender/receiver. It can be used for both sending and receiving the data.
 
 In most cases, a Unicast address is associated with a single device or host, but a device or host that may have more than one unicast address.
+
+_**Broadcast addressing**_
+
+Broadcasting addressing is another addressing method available in IPv4. It allows you to manage data to all destinations on a network with a single transmission operation.
+
+The IP address 255.255.255.255 is mostly used for network broadcast. Moreover, limited directed-broadcast uses the all-ones host address with the network prefix.
+
+IPv6 does not provide any implementation and any broadcast addressing. It replaces it with multicast to the specially defined all-nodes of the multicast address.
