@@ -25,3 +25,10 @@ _**Version of IP address**_
 IPv4 was the first version of IP. It was deployed for production in the ARPANET in 1983. Today it is the most widely used IP version. It is used to identify devices on a network using an addressing system.
 
 The IPv4 uses a 32-bit address scheme allowing to store 2^32 addresses, which is more than 4 billion addresses. To date, it is considered the primary Internet Protocol and carries 94% of Internet traffic.
+
+**IPV6**
+
+It is the most recent version of the Internet Protocol. Internet Engineer Taskforce initiated it in early 1994. The design and development of that suite is now called IPv6.
+
+This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues which are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space.
+
