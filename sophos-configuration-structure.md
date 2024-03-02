@@ -64,3 +64,34 @@ This IP addressing comes as a built-in feature of IPv6. In IPv4, it is implement
 
 _**IP Classification**_
 
+|CLASS|START RANGE|END RANGE|PRIVATE IPS| LEADING BITS|
+|---|---|---|----|---|
+|A|1|127|10.0.0.0      - 10.255.255.255| /8 |
+|B|128|191|171.16.0.0  - 172.31.0.0| /16 |
+|C|192|223|192.168.0.0 - 192.168.255.255| /24 |
+
+**Private IPv4 addresses details**
+
+|RFC 1918 name|	IP address range	|Number of addresses	| Largest CIDR block (subnet mask)|	Host ID size	|Mask bits	Classful description|
+|---|---|---|---|---|---|
+|24-bit block	|10.0.0.0 – 10.255.255.255	|16777216|10.0.0.0/8 (255.0.0.0)|	24 bits	|8 bits|	single class A network|
+|20-bit block	|172.16.0.0 – 172.31.255.255|	1048576	|172.16.0.0/12 (255.240.0.0)|	20 bits|	12 bits	| 16 contiguous class B networks|
+|16-bit block	|192.168.0.0 – 192.168.255.255|65536|192.168.0.0/16 (255.255.0.0)|	16 bits	|16 bits	|256 contiguous class C networks|
+
+_**Private Class A case study**_
+
+In this case, we'll assume the five regions and their user information. We have a different firewall and details depending on the region.
+
+_**Planning of multiple firewall configuration**_
+
+| LOCATION | USERS  | NETWORKS   | IP ADDRESSES |  ACTUAL HOSTS | GATEWAY |
+|---|---|---|---|---|---|
+| DEL | 300 | 10.1.10.0/23 | 10.1.10.1 - 10.1.11.254 | 512 - 2  | 10.1.10.1 |
+| CHE | 100| 10.1.12.0/25  | 10.1.12.1 - 10.1.12.126 | 128 - 2  | 10.1.12.1 | 
+| MUM | 210 | 10.1.13.0/24 | 10.1.13.1 - 10.1.13.254 | 256 - 2  | 10.1.13.1 |
+| BAN | 300 | 10.1.14.0/23 | 10.1.14.1 - 10.1.15.254 | 512 - 2  | 10.1.14.1 |
+| KOC | 700 | 10.1.16.0/22 | 10.1.16.1 - 10.1.19.254 | 1024 - 2 | 10.1.16.1 |
+
+_**Private Class B case study**_
+
+
