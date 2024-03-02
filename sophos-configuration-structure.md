@@ -32,3 +32,12 @@ It is the most recent version of the Internet Protocol. Internet Engineer Taskfo
 
 This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues which are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space.
 
+**IP Address Classification Based on Operational Characteristics**
+
+_**Unicast addressing**_
+
+Unicast addressing is the most common concept of an IP address in the Unicast addressing method. It is available in both IPv4 and IPv6.
+
+This IP address method refers to a single sender/receiver. It can be used for both sending and receiving the data.
+
+In most cases, a Unicast address is associated with a single device or host, but a device or host that may have more than one unicast address.
